@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inteligencia Artificial y Optimización · FIME UANL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="progress"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <img class="logo" src="assets/fime-logo.png" alt="FIME">
+      <img class="logo" src="assets/uanl-logo.png" alt="UANL">
+      <span class="brand-text">Inteligencia Artificial y Optimización</span>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">Menú</button>
+    <nav class="links" id="navLinks">
+      <a href="#licenciatura">Licenciatura</a>
+      <a href="#maestria">Maestría</a>
+      <a href="#doctorado">Doctorado</a>
+      <a href="#profesorado">Docentes</a>
+      <span class="nav-indicator" id="navIndicator"></span>
+    </nav>
+  </div>
+</header>
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+<section class="hero">
+  <div class="hero-glow"><span></span><span></span><span></span></div>
+  <svg class="hero-graphic" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <g class="net-links" stroke="#5C8F63" stroke-opacity="0.35" stroke-width="1">
+      <line data-a="0" data-b="1" x1="120" y1="90" x2="340" y2="180"><animate attributeName="stroke-opacity" values="0.1;0.4;0.1" dur="6s" repeatCount="indefinite"/></line>
+      <line data-a="1" data-b="2" x1="340" y1="180" x2="560" y2="70"><animate attributeName="stroke-opacity" values="0.4;0.1;0.4" dur="7s" repeatCount="indefinite"/></line>
+      <line data-a="1" data-b="5" x1="340" y1="180" x2="420" y2="330"><animate attributeName="stroke-opacity" values="0.15;0.35;0.15" dur="5s" repeatCount="indefinite"/></line>
+      <line data-a="2" data-b="3" x1="560" y1="70" x2="760" y2="150"><animate attributeName="stroke-opacity" values="0.3;0.1;0.3" dur="8s" repeatCount="indefinite"/></line>
+      <line data-a="3" data-b="4" x1="760" y1="150" x2="980" y2="90"><animate attributeName="stroke-opacity" values="0.1;0.4;0.1" dur="6.5s" repeatCount="indefinite"/></line>
+      <line data-a="3" data-b="6" x1="760" y1="150" x2="880" y2="320"><animate attributeName="stroke-opacity" values="0.35;0.1;0.35" dur="9s" repeatCount="indefinite"/></line>
+      <line data-a="5" data-b="7" x1="420" y1="330" x2="640" y2="410"><animate attributeName="stroke-opacity" values="0.1;0.3;0.1" dur="7.5s" repeatCount="indefinite"/></line>
+      <line data-a="7" data-b="6" x1="640" y1="410" x2="880" y2="320"><animate attributeName="stroke-opacity" values="0.25;0.1;0.25" dur="6s" repeatCount="indefinite"/></line>
+      <line data-a="0" data-b="8" x1="120" y1="90" x2="60" y2="260"><animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="10s" repeatCount="indefinite"/></line>
+      <line data-a="4" data-b="9" x1="980" y1="90" x2="1050" y2="260"><animate attributeName="stroke-opacity" values="0.25;0.1;0.25" dur="8s" repeatCount="indefinite"/></line>
+    </g>
+    <g fill="#B8892E" fill-opacity="0.85">
+      <circle cx="120" cy="90" r="3"/><circle cx="340" cy="180" r="4"/><circle cx="560" cy="70" r="3"/>
+      <circle cx="760" cy="150" r="4"/><circle cx="980" cy="90" r="3"/><circle cx="420" cy="330" r="3"/>
+      <circle cx="880" cy="320" r="4"/><circle cx="640" cy="410" r="3"/><circle cx="60" cy="260" r="2.5"/>
+      <circle cx="1050" cy="260" r="2.5"/>
+    </g>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow">Facultad de Ingeniería Mecánica y Eléctrica<span>Universidad Autónoma de Nuevo León</span></div>
+    <h1>Programas académicos en Inteligencia Artificial y Optimización</h1>
+    <div class="level-pills">
+      <a href="#licenciatura">Licenciatura</a>
+      <a href="#maestria">Maestría</a>
+      <a href="#doctorado">Doctorado</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LICENCIATURA ================= -->
+<section class="level" id="licenciatura">
+  <div class="wrap">
+    <div class="level-head reveal">
+      <h2>Licenciatura en Ingeniería en Inteligencia Artificial</h2>
+      <div class="meta-grid">
+        <div><span class="meta-label">Duración</span><strong>10 semestres</strong></div>
+        <div><span class="meta-label">Modalidad</span><strong>Escolarizada (presencial)</strong></div>
+        <div><span class="meta-label">Créditos</span><strong>210</strong></div>
+        <div><span class="meta-label">Plan de estudios</span><strong>440</strong></div>
+      </div>
+    </div>
+
+    <div class="description reveal">
+      <p class="purpose">El programa educativo de la Licenciatura en Ingeniería en Inteligencia Artificial tiene como propósito formar ingenieras e ingenieros capaces de modelar, diseñar e implementar sistemas inteligentes que resuelvan problemas reales de la industria, el gobierno y la sociedad, con un dominio sólido de los fundamentos matemáticos, computacionales y éticos de la disciplina.</p>
+      <p class="purpose">Competentes para trabajar de forma colaborativa e interdisciplinaria en la construcción de soluciones de percepción, aprendizaje automático, robótica y optimización, empleando el pensamiento crítico y el método científico, con responsabilidad social y apego a la ética profesional, contribuyendo al desarrollo tecnológico de Nuevo León y del país.</p>
+    </div>
+
+    <div class="split-row">
+      <div class="side-card reveal">
+        <h3>Admisión</h3>
+        <ul>
+          <li>Haber concluido el nivel medio superior (bachillerato) o equivalente</li>
+          <li>Promedio general mínimo de 85/100 (8.5/10.0)</li>
+          <li>Presentar el examen de Concurso de Ingreso de la UANL</li>
+          <li>Certificado oficial de inglés nivel B1–B2 (TOEFL, IELTS o EXCI)</li>
+          <li>Participar en el curso propedéutico</li>
+          <li>Entregar kárdex de bachillerato y carta promedio (si aplica)</li>
+        </ul>
+      </div>
+      <div class="contact-card reveal">
+        <h3>Contacto del programa de licenciatura</h3>
+        <p class="contact-name">Dr. Erick de Jesús Ordaz Rivas</p>
+        <p class="contact-role">Jefe de Programa Educativo de Licenciatura en Ingeniería en Inteligencia Artificial</p>
+        <p class="contact-details"><a href="mailto:erick.ordazrv@uanl.edu.mx">erick.ordazrv@uanl.edu.mx</a></p>
+      </div>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn primary" href="https://www.fime.uanl.mx/programas-educativos/" target="_blank" rel="noopener">Ver convocatoria</a>
+      <a class="btn ghost" href="https://www.uanl.mx/oferta/ingenieria-en-inteligencia-artificial/" target="_blank" rel="noopener">Más información del programa</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MAESTRÍA ================= -->
+<section class="level" id="maestria">
+  <div class="wrap">
+    <div class="level-head reveal">
+      <h2>Maestría en Ciencias en Inteligencia Artificial y Optimización</h2>
+      <div class="meta-grid">
+        <div><span class="meta-label">Duración</span><strong>3 a 6 semestres</strong></div>
+        <div><span class="meta-label">Modalidad</span><strong>Mixta</strong></div>
+        <div><span class="meta-label">Créditos</span><strong>84</strong></div>
+        <div><span class="meta-label">Ingreso</span><strong>Enero 2027</strong></div>
+      </div>
+    </div>
+
+    <div class="description reveal">
+      <p class="purpose">El programa educativo de Maestría en Ciencias en Inteligencia Artificial y Optimización tiene como propósito formar maestros en ciencias capaces de modelar sistemas derivados de contextos reales, analizar y diseñar soluciones a problemas complejos, desarrollando aplicaciones inteligentes de innovación tecnológica que apoyen al proceso de toma de decisiones en diversos campos laborales, mejorando la eficiencia, la calidad y sustentabilidad en procesos industriales, gubernamentales y de la sociedad en general.</p>
+      <p class="purpose">Competentes en realizar investigación original de primer nivel que contribuya a la generación de soluciones a problemáticas emergentes, de manera interdisciplinaria y colaborativa, empleando el pensamiento crítico y analítico, mediante el uso ético y pertinente de herramientas avanzadas de inteligencia artificial y optimización.</p>
+      <p style="font-size:0.9rem;color:var(--text-soft);">Los cursos combinan la libertad de avanzar a tu propio ritmo con acceso a materiales disponibles en todo momento, y sesiones virtuales en vivo programadas por el profesor.</p>
+    </div>
+
+    <div class="split-row">
+      <div class="plan-col">
+        <h3 class="subhead">Plan de estudios</h3>
+        <div class="sem-grid reveal">
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Primer semestre</span><span class="tot">24 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Modelación matemática</td><td>6</td></tr>
+          <tr><td>Inteligencia artificial</td><td>6</td></tr>
+          <tr><td>Modelos probabilistas aplicados</td><td>6</td></tr>
+          <tr><td>Optativa I · área de libre elección</td><td>6</td></tr>
+        </table></div></div>
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Segundo semestre</span><span class="tot">24 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Metodología de la investigación</td><td>6</td></tr>
+          <tr><td>Optimización con metaheurísticas</td><td>6</td></tr>
+          <tr><td>Aprendizaje computacional</td><td>6</td></tr>
+          <tr><td>Optativa II · área de libre elección</td><td>6</td></tr>
+        </table></div></div>
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Tercer semestre</span><span class="tot">24 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Tesis I</td><td>6</td></tr>
+          <tr><td>Seminario de divulgación de la ciencia I</td><td>6</td></tr>
+          <tr><td>Optativa · área de aplicación</td><td>12</td></tr>
+        </table></div></div>
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Cuarto semestre</span><span class="tot">12 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Tesis II</td><td>6</td></tr>
+          <tr><td>Seminario de divulgación de la ciencia II</td><td>6</td></tr>
+        </table></div></div>
+        </div>
+      </div>
+
+      <div class="opt-col">
+        <h3 class="subhead">Catálogo de optativas</h3>
+        <div class="optativas-grid">
+          <div><h4>Área de aplicación</h4><ul><li>Pasantía de investigación</li><li>Proyecto de investigación aplicada</li></ul></div>
+          <div><h4>Libre elección I y II</h4><ul><li>Optimización multiobjetivo</li><li>Optimización estocástica</li><li>Tópicos avanzados de optimización</li><li>Sistemas robóticos inteligentes</li><li>Agentes autónomos</li><li>Tópicos avanzados de inteligencia artificial</li><li>Visión artificial</li></ul></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="discreet-guide acc-item">
+      <button class="acc-trigger" aria-expanded="false">Guía de estudio para examen interno<span class="icon">+</span></button>
+      <div class="acc-panel"><ul class="req-list small">
+        <li>Álgebra lineal</li><li>Cálculo diferencial</li><li>Probabilidad</li><li>Lógica de programación</li><li>Matemáticas discretas</li>
+      </ul></div>
+    </div>
+
+    <div class="side-card wide reveal">
+      <h3>Requisitos de admisión</h3>
+      <ul>
+        <li><strong>Título de licenciatura</strong> en un área afín a Ingeniería, Computación o Ciencias Exactas</li>
+        <li>Dos <strong>cartas de recomendación</strong> profesional</li>
+        <li><strong>Seguro médico</strong> básico</li>
+        <li>Puntuación mínima de 900 en el examen de conocimientos generales <strong>EXANI-III</strong> y de 50 puntos en el examen de dominio de inglés <strong>EXCI</strong></li>
+        <li>Aprobar el <strong>examen técnico</strong> de conocimientos básicos del programa educativo</li>
+        <li>Sustentar la <strong>entrevista</strong> con el Comité Académico de Admisiones del programa educativo</li>
+      </ul>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn primary" href="https://www.uanl.mx/tramites/concurso-de-ingreso-a-posgrado/" target="_blank" rel="noopener">Ver convocatoria</a>
+      <a class="btn ghost" href="https://posgrado.uanl.mx/ofertas_educativas/maestria-en-ciencias-en-inteligencia-artificial-y-optimizacion/" target="_blank" rel="noopener">Más información del programa</a>
+    </div>
+    <p class="jump-link"><a href="#posgrado-info">Ver fechas importantes y líneas de investigación de posgrado ↓</a></p>
+  </div>
+</section>
+
+<!-- ================= DOCTORADO ================= -->
+<section class="level" id="doctorado">
+  <div class="wrap">
+    <div class="level-head reveal">
+      <h2>Doctorado en Inteligencia Artificial y Optimización</h2>
+      <div class="meta-grid">
+        <div><span class="meta-label">Duración</span><strong>3 a 9 semestres</strong></div>
+        <div><span class="meta-label">Modalidad</span><strong>Mixta</strong></div>
+        <div><span class="meta-label">Créditos</span><strong>96</strong></div>
+        <div><span class="meta-label">Ingreso</span><strong>Enero 2027</strong></div>
+      </div>
+    </div>
+
+    <div class="description reveal">
+      <p class="purpose">El programa educativo del Doctorado en Inteligencia Artificial y Optimización tiene como propósito formar doctores capaces de desarrollar investigación original de primer nivel, en temas científicos de frontera en inteligencia artificial y optimización avanzada. Competentes para trabajar de manera interdisciplinaria y colaborativa generando soluciones eficientes y efectivas a problemas complejos que surgen en sectores productivos, públicos y privados.</p>
+      <p class="purpose">Capaces de crear aplicaciones y productos de innovación tecnológica con un enfoque en la sustentabilidad y responsabilidad social, a partir de investigación aplicada, empleando herramientas analíticas y computacionales que contribuyan al desarrollo tecnológico y bienestar de la sociedad.</p>
+    </div>
+
+    <div class="split-row">
+      <div class="plan-col">
+        <h3 class="subhead">Plan de estudios</h3>
+        <div class="sem-grid reveal">
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Primer semestre</span><span class="tot">18 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Métodos de optimización</td><td>6</td></tr>
+          <tr><td>Inteligencia computacional</td><td>6</td></tr>
+          <tr><td>Fundamentos de análisis científico</td><td>6</td></tr>
+        </table></div></div>
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Segundo semestre</span><span class="tot">20 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Optativa I · área de libre elección</td><td>8</td></tr>
+          <tr><td>Sistemas estocásticos</td><td>6</td></tr>
+          <tr><td>Diseño y metodología de la investigación científica</td><td>6</td></tr>
+        </table></div></div>
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Tercer semestre</span><span class="tot">14 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Optativa II · área de libre elección</td><td>8</td></tr>
+          <tr><td>Diseño y análisis de experimentos</td><td>6</td></tr>
+        </table></div></div>
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Cuarto semestre</span><span class="tot">16 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Optativa III · área de libre elección</td><td>8</td></tr>
+          <tr><td>Redacción técnica en proyectos de investigación</td><td>8</td></tr>
+        </table></div></div>
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Quinto semestre</span><span class="tot">14 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Tesis doctoral I</td><td>8</td></tr>
+          <tr><td>Seminario de investigación</td><td>6</td></tr>
+        </table></div></div>
+        <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Sexto semestre</span><span class="tot">14 créd</span><span class="icon">+</span></button><div class="acc-panel"><table>
+          <tr><td>Tesis doctoral II</td><td>8</td></tr>
+          <tr><td>Divulgación de la ciencia</td><td>6</td></tr>
+        </table></div></div>
+        </div>
+      </div>
+
+      <div class="opt-col">
+        <h3 class="subhead">Catálogo de optativas (libre elección)</h3>
+        <div class="optativas-grid">
+          <div><h4>Optativa I</h4><ul><li>Redes neuronales avanzadas</li><li>Optimización discreta</li></ul></div>
+          <div><h4>Optativa II</h4><ul><li>Optimización con metaheurísticas</li><li>Técnicas avanzadas de inteligencia artificial</li></ul></div>
+          <div><h4>Optativa III</h4><ul><li>Estancia de investigación e innovación</li><li>Aplicaciones avanzadas de optimización</li><li>Aplicaciones avanzadas de inteligencia artificial</li></ul></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="discreet-guide acc-item">
+      <button class="acc-trigger" aria-expanded="false">Guía de estudio para examen interno<span class="icon">+</span></button>
+      <div class="acc-panel"><ul class="req-list small">
+        <li>Álgebra lineal</li><li>Cálculo diferencial</li><li>Probabilidad</li><li>Lógica de programación</li><li>Matemáticas discretas</li>
+        <li>Tópicos avanzados de inteligencia artificial</li><li>Tópicos avanzados de optimización</li><li>Uso de lenguaje de programación</li><li>Análisis de textos científicos</li>
+      </ul></div>
+    </div>
+
+    <div class="side-card wide reveal">
+      <h3>Requisitos de admisión</h3>
+      <ul>
+        <li><strong>Título de maestría</strong> en un área afín a Ingeniería, Computación o Ciencias Exactas</li>
+        <li>Dos <strong>cartas de recomendación</strong> profesional</li>
+        <li><strong>Certificado oficial</strong> del dominio del idioma inglés equivalente a B1–B2</li>
+        <li><strong>Seguro médico</strong> básico</li>
+        <li>Puntuación mínima de 900 en el examen de conocimientos generales <strong>EXANI-III</strong> y de 50 puntos en el examen de dominio de inglés <strong>EXCI</strong></li>
+        <li>Aprobar el <strong>examen técnico</strong> de conocimientos básicos del programa educativo</li>
+        <li>Sustentar la <strong>entrevista</strong> con el Comité Académico de Admisiones del programa educativo</li>
+      </ul>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn primary" href="https://www.uanl.mx/tramites/concurso-de-ingreso-a-posgrado/" target="_blank" rel="noopener">Ver convocatoria</a>
+      <a class="btn ghost" href="https://posgrado.uanl.mx/ofertas_educativas/doctorado-en-inteligencia-artificial-y-optimizacion/" target="_blank" rel="noopener">Más información del programa</a>
+    </div>
+    <p class="jump-link"><a href="#posgrado-info">Ver fechas importantes y líneas de investigación de posgrado ↓</a></p>
+  </div>
+</section>
+
+<!-- ================= INFORMACIÓN COMÚN DE POSGRADO ================= -->
+<section class="shared" id="posgrado-info">
+  <div class="wrap">
+    <div class="level-head reveal">
+      <h2>Información general de posgrado</h2>
+      <p>Aplica para la Maestría y al Doctorado en Inteligencia Artificial y Optimización.</p>
+    </div>
+    <div class="stack-col">
+        <h3 class="subhead" style="border-top:none;padding-top:0;margin-top:0;">Líneas de investigación</h3>
+        <ul class="req-list">
+          <li>Desarrollo de algoritmos de optimización avanzados para la resolución de problemas complejos</li>
+          <li>Diseño y desarrollo de modelos y algoritmos de inteligencia artificial para ingeniería de sistemas</li>
+          <li>Desarrollo e implementación de métodos cuantitativos de apoyo para la toma de decisiones</li>
+        </ul>
+
+        <h3 class="subhead">Fechas importantes</h3>
+        <div class="dates">
+          <div><span>Registro EXANI-III / EXCI</span><strong>17 ago – 02 sep 2026</strong></div>
+          <div><span>Registro (2do periodo)</span><strong>21 sep – 07 oct 2026</strong></div>
+          <div><span>Inicio de clases</span><strong>18 de enero de 2027</strong></div>
+        </div>
+
+    </div>
+
+    <div class="split-row">
+      <div class="side-card reveal">
+        <h3>Costo</h3>
+        <p style="font-size:0.88rem;color:var(--text-soft);">Tiempo parcial: cuota de rectoría + cuota interna y de materias.</p>
+        <p style="font-size:0.88rem;color:var(--text-soft);margin:0;">Oportunidad de beca para estudiantes de tiempo completo.</p>
+      </div>
+      <div class="contact-card reveal">
+        <h3>Contacto del programa de posgrado</h3>
+        <p class="contact-name">Dra. Iris Abril Martínez Salazar</p>
+        <p class="contact-role">Coordinadora Académica del Posgrado en Inteligencia Artificial y Optimización</p>
+        <p class="contact-details"><a href="mailto:iris.martinezslz@uanl.edu.mx">iris.martinezslz@uanl.edu.mx</a><br>+52 (81) 8329 4020 ext. 1609</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROFESORADO ================= -->
+<section class="faculty" id="profesorado">
+  <div class="wrap">
+    <div class="level-head reveal">
+      <h2>Docentes</h2>
+    </div>
+    <p class="lede">Planta docente de programas de licenciatura y posgrado.</p>
+    <div class="faculty-grid">
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Angelica.png" alt="María Angélica Salazar Aguilar" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>María Angélica Salazar Aguilar</h3><p>Modelos y metaheurísticas</p><div class="links"><a href="https://www.uanl.mx/investigadores/maria-angelica-salazar-aguilar/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=WjAHgbEAAAAJ&hl=es&oi=ao" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Sara.png" alt="Sara Elena Garza Villarreal" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>Sara Elena Garza Villarreal</h3><p>Inteligencia Artificial</p><div class="links"><a href="https://www.uanl.mx/investigadores/sara-elena-garza-villarreal-2/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=QYvuWioAAAAJ&hl=es&oi=ao" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Luis.png" alt="Luis Martín Torres Treviño" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>Luis Martín Torres Treviño</h3><p>Sistemas Inteligentes</p><div class="links"><a href="https://www.uanl.mx/investigadores/luis-martin-torres-trevino/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=AnIoD4QAAAAJ&hl=es&oi=ao" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Leticia.png" alt="Leticia Amalia Neira Tovar" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>Leticia Amalia Neira Tovar</h3><p>Realidad Virtual</p><div class="links"><a href="https://www.uanl.mx/investigadores/leticia-amalia-neira-tovar/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=I0IB6UgAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Arturo.png" alt="José Arturo Berrones Santos" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>José Arturo Berrones Santos</h3><p>Sistemas Complejos</p><div class="links"><a href="https://www.uanl.mx/investigadores/jose-arturo-berrones-santos/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=RwupfCkAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Erick.png" alt="Erick de Jesús Ordaz Rivas" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>Erick de Jesús Ordaz Rivas</h3><p>Robótica y Autonomía</p><div class="links"><a href="https://www.uanl.mx/investigadores/erick-de-jesus-ordaz-rivas/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=YJiv3ZEAAAAJ&hl=es" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Cesar.png" alt="César Emilio Villarreal Rodríguez" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>César Emilio Villarreal Rodríguez</h3><p>Manejo de Incertidumbre</p><div class="links"><a href="https://www.uanl.mx/investigadores/cesar-emilio-villarreal-rodriguez/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=zsJuHg4AAAAJ&hl=es" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Igor.png" alt="Igor Semionovich Litvinchev" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>Igor Semionovich Litvinchev</h3><p>Modelación Matemática</p><div class="links"><a href="https://www.uanl.mx/investigadores/igor-litvinchev/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=y7U1BqYAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Fernando.png" alt="Fernando López Irarragorri" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>Fernando López Irarragorri</h3><p>Toma de Decisiones</p><div class="links"><a href="https://www.uanl.mx/investigadores/fernando-lopez-irarragorri/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=pCXuLtYAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Romeo.png" alt="Romeo Sánchez Nigenda" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>Romeo Sánchez Nigenda</h3><p>Inteligencia Computacional</p><div class="links"><a href="https://www.uanl.mx/investigadores/romeo-sanchez-nigenda/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=bFPpEAwAAAAJ&hl=es" target="_blank" rel="noopener">Scholar</a></div></div></div>
+      <div class="fac-card"><span class="fac-photo-wrap"><img class="fac-photo" src="assets/Iris.png" alt="Iris Abril Martínez Salazar" loading="lazy" draggable="false"> draggable="false"></span><div class="fac-info"><h3>Iris Abril Martínez Salazar</h3><p>Optimización Aplicada</p><div class="links"><a href="https://www.uanl.mx/investigadores/iris-abril-martinez-salazar/" target="_blank" rel="noopener">Perfil UANL</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=8Zgpq5UAAAAJ&hl=es" target="_blank" rel="noopener">Scholar</a></div></div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div class="footer-logos">
+      <img class="logo" src="assets/fime-logo.png" alt="FIME">
+      <img class="logo" src="assets/uanl-logo.png" alt="UANL">
+    </div>
+    <span>Facultad de Ingeniería Mecánica y Eléctrica · Universidad Autónoma de Nuevo León</span>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="Volver arriba">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
