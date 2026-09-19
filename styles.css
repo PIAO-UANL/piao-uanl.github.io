@@ -405,3 +405,13 @@ footer{background:#fff;color:var(--text-soft);padding:36px 0;font-size:0.82rem;b
 @media (hover:hover) and (pointer:fine){
   #toTop:hover{background:var(--panel);}
 }
+
+/* SKIP LINK — accesibilidad de teclado */
+.skip-link{
+  position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;
+  background:var(--ink);color:var(--text-on-dark);padding:12px 20px;
+  z-index:100;text-decoration:none;font-size:0.9rem;border-radius:var(--radius);
+}
+.skip-link:focus{
+  left:16px;top:16px;width:auto;height:auto;overflow:visible;
+}
