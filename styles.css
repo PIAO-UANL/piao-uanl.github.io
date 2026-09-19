@@ -215,9 +215,6 @@ h3.subhead{font-size:1.1rem;margin:36px 0 14px;padding-top:22px;border-top:1px s
 .split-row > div > h3.subhead:first-child{border-top:none;padding-top:0;margin-top:0;}
 
 .stack-col{max-width:720px;}
-.stack-col .req-list{columns:2;column-gap:44px;}
-.stack-col .req-list li{break-inside:avoid;}
-@media(max-width:700px){.stack-col .req-list{columns:1;}}
 
 /* CUSTOM ACCORDION — una sola lista con separadores, no 10 tarjetas sueltas */
 .sem-grid{border:1px solid var(--line);background:#fff;}
